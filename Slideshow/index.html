@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Assignment 5</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container">
+        <button id="prevBtn"> < </button>
+        <img id="bigImg">
+        <button id="nextBtn"> > </button>
+    </div>
+    <div class="container container2">
+        <img class="small_img" src="imgs/img1.jpg">
+        <img class="small_img" src="imgs/img2.jpg">
+        <img class="small_img" src="imgs/img3.jpg">
+        <img class="small_img" src="imgs/img4.jpg">
+    </div>
+
+    <script>
+        var imgs = ["imgs/img1.jpg", "imgs/img2.jpg", "imgs/img3.jpg", "imgs/img4.jpg"];
+        var small_img = document.getElementsByClassName("small_img");
+        var bigImg = document.getElementById("bigImg");
+        var nextBtn = document.getElementById("nextBtn");
+        var prevBtn = document.getElementById("prevBtn");
+        var img_num = 0;
+        bigImg.src = imgs[img_num];
+        small_img[0].style.border = "5px solid grey"
+
+        function change(step){
+            img_num = (img_num + step) % imgs.length;
+            bigImg.src = imgs[img_num];
+            for (let i = 0; i < small_img.length; i++) {
+                small_img[i].style.border = "5px solid rgba(255, 255, 255, 0)";
+            }
+            small_img[img_num].style.border = "5px solid grey";
+        }
+        nextBtn.onclick = function () {change(1)}
+        prevBtn.onclick = function () {change(-1)}
+
+        // function change(next_prev) {
+        //     // going to the next image
+        //     if (next_prev) {
+        //         img_num++;
+        //         if (img_num < imgs.length) {
+        //             bigImg.src = imgs[img_num];
+        //             small_img[img_num - 1].style.border = "none";
+        //         }
+        //         else {
+        //             img_num = 0;
+        //             bigImg.src = imgs[img_num];
+        //             small_img[imgs.length - 1].style.border = "none";
+        //         }
+        //     }
+        //     // going to the previous image
+        //     else {
+        //         img_num--;
+        //         if (img_num >= 0) {
+        //             bigImg.src = imgs[img_num];
+        //             small_img[img_num + 1].style.border = "none";
+        //         }
+        //         else {
+        //             img_num = imgs.length - 1;
+        //             bigImg.src = imgs[img_num];
+        //             small_img[0].style.border = "none";
+        //         }
+        //     }
+        //     small_img[img_num].style.border = "5px solid grey";
+
+        // }
+        // nextBtn.onclick = function () { change(true) }
+        // prevBtn.onclick = function () { change(false) }
+
+
+
+    </script>
+
+</body>
+
+</html>

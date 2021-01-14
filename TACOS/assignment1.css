@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: rgb(99, 97, 97);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.slide{
+    height: 100vh;
+}
+a{
+    text-decoration: none;
+}
+.navi{
+    margin-left: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.nav{
+    padding: 15px;
+    position: relative;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.clear-float{
+    clear: both;
+}
+.slide1{
+    background-image: url(imgs/slider.jpg);
+    background-size: cover;
+}
+.slogan{
+    height: 200px;
+    width: 750px;
+    text-transform: uppercase;
+    font-size: 70px;
+    font-weight: bold;
+    color: black;
+    margin: 40px auto;
+    text-align: center;
+}
+.slide1 .seemore{
+    background-image: url(imgs/separetor3.png);
+    width: 400px;
+    height: 40px;
+    position: absolute;
+    bottom: 150px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.slide1 .seemore .b1{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-weight: bold;
+    background: none;
+    background-color: #fad000;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.slide2{
+    position: relative;
+}
+.container{
+    position: absolute;
+    top: 70px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 70%;
+    height: 250;
+}
+.sep{
+    position: absolute;
+    bottom: 60px;
+}
+.title1{
+    font-size: 75px;
+    margin-left: 0;
+    margin-bottom: 30px;
+}
+.txtwhat{
+    width: 500px;
+    height: 200px;
+}
+.container2{
+    top: 280px;
+    width: 70%;
+}
+.image-container{
+    position: relative;
+}
+.image-container img{
+    position: absolute;
+}
+.img2 img{
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 132px;
+    width: auto;
+}
+.img3 img{
+    right: 0;
+}
+.image-container{
+    height: 140px;
+    margin-bottom: 20px;
+}
+.title_container{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 20px;
+    position: relative;
+    height: 30px;
+}
+.center{
+    text-align: center;
+}
+.text_container{
+    height: 300px;
+    width: 1400px;
+    position: absolute;
+    bottom: 0;
+}
+.title_headphones{
+    position: absolute;
+    width: 131px;
+}
+.title_monitor{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 400px;
+}
+.title_camera{
+    position: absolute;
+    right: 0;
+    width: 217px;
+}

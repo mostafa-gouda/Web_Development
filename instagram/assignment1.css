@@ -1,0 +1,142 @@
+body{
+    background-color: rgb(247, 247, 247);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.middle{
+    width: 1000px;
+    height: 600px;
+    margin: auto;
+    position: relative;
+}
+.phones{
+    position: absolute;
+    width: 460px;
+    height: auto;
+    margin-left: 70px;
+}
+.form{
+    width: 340px;
+    height: 375px;
+    position: absolute;
+    right: 130px;
+    top: 60px;
+    border: 1px solid rgb(199, 199, 199);
+    background-color: white;
+}
+.rel-form{
+    width: inherit;
+    height: inherit;
+    position: relative;
+}
+.form img{
+    position: absolute;
+    width: 180px;
+    height: auto;
+    top: 25px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.input{
+    height: 20px;
+    width: 240px;
+    margin-bottom: 5px;
+    background-color: rgb(247, 247, 247);
+    border: 1px solid rgb(192, 192, 192);
+    padding: 10px;
+    font-size: 12px;
+    border-radius: 3px;
+}
+.login{
+    position: absolute;
+    /* border: 1px solid; */
+    width: 250px;
+    height: 200px;
+    top: 110px;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+.login_b{
+    background-color: rgb(66, 138, 231);
+    height: 30px;
+    width: 260px;
+    margin-top: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 13.5px;
+    border-radius: 5px;
+    padding: 0;
+}
+.sep{
+    width: inherit;
+    height: 0;
+    border: 0.5px solid rgb(224, 224, 224);
+    overflow: visible;
+    margin-top: 20px;
+    
+}
+.sep span{
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 60px;
+    background-color: #fff;
+    text-align: center;
+    color: rgb(165, 164, 164);
+}
+.fb, .forgot {
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+    text-align: center;
+}
+.fb{
+    bottom: 50px;
+    color: rgb(67, 67, 128);
+    font-weight: 500;
+    font-size: 15px;
+}
+.forgot{
+    bottom: 20px;
+    font-size: 12px
+}
+.Signup{
+    width: 320px;
+    height: 40px;
+    position: absolute;
+    right: 130px;
+    bottom: 90px;
+    border: 1px solid rgb(199, 199, 199);
+    background-color: white;   
+    padding: 10px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 14px;
+    color:  rgb(189, 189, 189)
+}
+.Signup span{
+    color: rgb(67, 67, 128);
+    font-weight: bold
+}
+.app{
+    position: absolute;
+    right: 130px;
+    bottom: 0px;
+}
+.app div{
+    width: 340px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+.app img{
+    width: 120px;
+}
+.app img:last-child{
+    height: 35px;
+    width: auto;
+}

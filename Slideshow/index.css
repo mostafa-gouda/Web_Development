@@ -1,0 +1,29 @@
+    .container{
+        width: 1000px;
+        /* border: 1px solid black; */
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    .container img{
+        height: 400px;
+        width: auto;
+        border: 5px solid rgba(255, 255, 255, 0);
+    }
+    .container button{
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        border: 1px solid black;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 30px;
+        margin: 0 20px;
+    }
+    .container2 img{
+        width: 200px;
+        height: auto;
+        margin-left: 20px;
+    }

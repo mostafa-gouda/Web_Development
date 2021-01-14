@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.center{
+    width: 66%;
+    margin: auto;
+    height: inherit;
+    position: relative;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.clear-float{
+    clear: both;
+}
+.head-container{
+    height: 80px;
+    background-image: linear-gradient(#4e69a2, #3b5998 50%);;
+}
+.brand{
+    font-size: 40px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    bottom: 7px;
+}
+.sub-head2{
+    position: absolute;
+    bottom: 4px;
+    right: 0;
+}
+.td11,.td12,.p1{
+    color: white;
+    font-size: 12.5px;
+}
+input:first-child{
+    margin-right: 8px;
+}
+.p1{
+    color: #a5bae4;
+    text-decoration: none;
+}
+.p1:hover{
+    text-decoration: underline;
+}
+.b1{
+    color: white;
+    background-color: #436ab9;
+    font-size: 13px;
+    font-weight: bold;
+    border: 0.25px solid #1c46a1;
+    height: 20px;
+    width: 50px;
+    margin-left: 8px;
+}
+/* end of header */
+.middle-container{
+    height: 600px;
+    background-image: linear-gradient(white, rgb(211, 216, 232));
+}
+.m1{
+    color: #0e1930;
+    font-weight: bold;
+    position: absolute;
+    top: 50px;
+    width: 45%;
+    font-size: 20px;
+}
+img{
+    width: 120%;
+    
+}
+.m2{
+    color: #0e1930;
+    position: absolute;
+    top: 30px;
+    right: 0;
+    width: 40%;
+}
+.m2 h1{
+    font-size: 34px;
+}
+.m2 p{
+    font-size: 20px;
+}
+.middle-container form{
+    float: right;
+}
+.fn,.sn{
+    width: 182px;
+}
+.email{
+    width: 390px;
+}
+.inp{
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    padding: 6.5px;
+    margin-top: 12.5px;
+    font-size: 18px;
+}
+.bd{
+    margin: 12.5px 0;
+    font-size: 18px;
+}
+.bdi{
+    width: 220px;
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    padding: 6.5px;
+    margin-bottom: 12.5px;
+}
+label{
+    font-size: 18px;
+}
+.TOS{
+    width: 75%;
+    font-size: 11.5px;
+    margin-top: 12.5px;
+}
+.signup{
+    width: 200px;
+    height: 40px;
+    background-image: linear-gradient(#67ae55, #578843);
+    color: white;
+    font-weight: medium;
+}

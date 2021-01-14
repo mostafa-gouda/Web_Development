@@ -1,0 +1,141 @@
+/* global classes*/
+*{
+    /* border: 1px solid black; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    margin: 0;
+}
+.w100{
+    width: 100%;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between
+}
+.line{
+    display: inline-block;
+    background-color: #13e4a0;
+    height: 1px;
+    width: 20px;
+    margin: 5px 15px;
+}
+.icon{
+    width: 60px;
+    height: auto;
+    border: 3px solid #1bb496;
+    border-radius: 50%;
+}
+/* end */
+
+/* header */
+header{
+    padding: 5px;
+    height: 30px;
+    background-color: #122c3149;
+    font-size: 12px;
+    position: fixed;
+}
+.logo{
+    width: 300px;
+    height: inherit;
+    margin-left: 60px;
+}
+nav{
+    width: 400px;
+    height: inherit;
+    justify-content: space-between;
+    margin-right: 100px;
+}
+nav div,a{
+    line-height: 30px;
+    text-decoration: none;
+}
+/* end of header */
+/* first slide */
+.container1{
+    height: 100vh;
+    background-image: url(../Brandi/banner.jpg);
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.container1 div{
+    width: 100%;
+    text-align: center;
+}
+.container1 .cd1{
+    font-size: 65px;
+}
+.cd1 span{
+    font-weight: bold;
+}
+.container1 .cd2{
+    font-size: 50px;
+}
+.cd2 span{
+    color: #13e4a0;
+}
+.container1 .cd3{
+    margin-top: 10px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 20px;
+}
+/* end of first slide */
+
+/* second slide */
+.container2{
+    height: 100vh;
+    background-color: #f3f7fa;
+}
+.title{
+    font-size: 30px;
+    color: #12b797;
+    font-weight: bold;
+    width: 200px;
+    margin: auto;
+    padding-top: 90px;
+    text-align: center;
+}
+.heart{
+    width: 500px;
+    margin: 30px auto 100px;
+    text-align: center;
+}
+.heart .line{
+    width: 150px;
+    background-color: #e6eaed;
+    margin-bottom: 10px;
+}
+.heart img{
+    height: 20px;
+    width: auto;
+}
+.info{
+    justify-content: space-between;
+    width: 1400px;
+    margin: auto;
+}
+.info .imgc{
+    align-items: flex-start;
+    width: 450px;
+}
+.text_con{
+    height: inherit;
+    width: 350px;
+}
+.text_title{
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(90, 99, 107);
+    margin-bottom: 20px;
+}
+.par{
+    color: rgb(90, 99, 107);
+    text-align: justify;
+}
